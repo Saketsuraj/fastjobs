@@ -12,7 +12,7 @@ Tech Stack: Nodejs, Expressjs, MongoDB.
 
 # Note
 1. To use local DB, uncomment line no 19 and comment line no 21 in app.js
-2. To use mongo atlas, comment line no 19 and uncomment line no 21 inapp.js.
+2. To use mongo atlas, comment line no 19 and uncomment line no 21 in app.js.
 3. To run API in postman using localhost: http://localhost:4000
 4. To run API in postman using heroku: https://fastjobs-assignment.herokuapp.com/api/pet
 5. Download this sample excel: https://docs.google.com/spreadsheets/d/1eb7PzPXvuOD-EZ7dJalHcpNGcNm7YQEjDIc_Wp__6Cs/edit#gid=0
