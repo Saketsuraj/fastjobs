@@ -16,7 +16,9 @@ cb(null,file.originalname);
 var upload = multer({storage:storage});  
 
 //connect to db  
-mongoose.connect('mongodb://localhost:27017/pets',{useNewUrlParser:true})  
+// mongoose.connect('mongodb://localhost:27017/pets',{useNewUrlParser:true})  
+
+mongoose.connect('mongodb+srv://saket:saket12@cluster0.oyyma1o.mongodb.net/pets',{useNewUrlParser:true})  
 .then(()=>console.log('connected to db'))  
 .catch((err)=>console.log(err))  
 
