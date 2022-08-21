@@ -21,6 +21,6 @@ Tech Stack: Nodejs, Expressjs, MongoDB.
 
 - A POST route “/api/pet” to add pets from an excel file (Pass an excel file in form-data in postman)
 - A GET route “/api/pet” to get all the pets in the database (For eg: https://fastjobs-assignment.herokuapp.com/api/pet or http://localhost:4000/api/pet)
-- A GET route “/api/pet/<petId>” to get a specific pet (petId will be a dynamic value eg. /api/pet/abc123)
-- A PATCH route “/api/pet/<petId>” to update the details of a specific pet (Pass key-value in params in postman)
-- A DELETE route “/api/pet/<petId>” to delete a specific pet
+- A GET route “/api/pet/:petId” to get a specific pet (petId will be a dynamic value eg. /api/pet/abc123)
+- A PATCH route “/api/pet/:petId” to update the details of a specific pet (Pass key-value in params in postman)
+- A DELETE route “/api/pet/:petId” to delete a specific pet
